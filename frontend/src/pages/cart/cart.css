@@ -1,0 +1,42 @@
+.cartCont{
+    display: flex;
+}
+.totalCart{
+    margin-left: 90px;  
+    background-color: rgb(250, 233, 233);
+    height: 500px;
+}
+.totalCart h2{
+    background-color: rgb(66, 66, 243);
+    color: white;
+    width: 100%;
+}
+.totalQuant{
+    display: flex;
+    line-height: 10px;
+}
+.totalQuant .first{
+    width: 150px;
+    line-height: 5px;
+}
+.totalQuant .second{
+    margin-left: 300px;
+    line-height: 5px;
+}
+.payment{
+    width: 98%;
+    margin-left: 4px;
+    background-color: blueviolet;
+    font-size: 20px;
+    cursor: pointer;
+}
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+.empty img{
+  text-align: center;
+}

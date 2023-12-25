@@ -1,0 +1,113 @@
+/* header.css */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .container img {
+    height: 40px;
+  }
+  
+  .bigImg{
+    width: 25px;
+    height: 25px;
+  }
+  /* User section styles */
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navigation links styles */
+  .userPages {
+    display: flex;
+    gap: 20px; /* Add some gap between navigation links */
+    margin-right: 20px;
+  }
+  
+  .userPages a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Cart and UserIcon styles */
+  .cart{
+    font-size: 24px; /* Adjust the icon size */
+    /* Set the icon color as per your design */
+    margin-right: 10px; /* Adjust spacing between icons */
+    position: relative;
+  }
+  .userIcon {
+    font-size: 17px; /* Adjust the icon size */
+    position: relative;
+    margin-right: 55px; /* Adjust spacing between icons */
+    margin-left: 10px;
+    cursor: pointer;
+  
+  }
+  .badge{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 14px;
+    width: 14px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+  .userIconBorder{
+    border: 1px solid rgb(29, 28, 28);
+    padding:2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .newProduct {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 2;
+    padding:4px 2px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-bottom: 2px solid #fff; /* Add a border to the bottom */
+    border-left: 2px solid #fff; /* Add a border to the left */
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  /* Styles for the "Add" and "Login" text */
+  .add,
+  .login {
+    margin: 0;
+    width: 100px;
+    font-size: 16px;
+    line-height: 22px; 
+    text-decoration: none;
+    color: black;
+  }
+  .cart .Link{
+    color: black;
+  }

@@ -1,0 +1,79 @@
+.home{
+    padding: 3px;
+    display: flex;
+}
+.homeLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    margin-right: 40px;
+}
+.bike{
+    margin-bottom: 1px;
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.bikeImg{
+    width: 45px;
+    height: 40px;
+    margin-right: 10px;
+}
+.homeLeft h2{
+    font-size: 52px;
+    margin-bottom: 2px;
+    margin-top: -3px;
+}
+.homeLeft .order{
+    background-color: red;
+    width: 100px;
+    margin-left: 3px;
+}
+.spanHome{
+    color: rgb(214, 73, 73);
+}
+.homeRight{
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.IconsLeft{
+   position: absolute;
+   right: 10px;
+   bottom: -80px;
+}
+.cardFeat{
+    display: flex;
+    gap: 27px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    transition: all;
+}
+.btnSecond{
+    width: 30px;
+    background-color: rgb(94, 94, 240);
+    text-align: center;
+    margin-left: 10px;
+}
+.btnSecond :hover{
+  background-color: turquoise;
+}
+.knife{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.filteredProo{
+    display: flex;
+    width: 1500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 27px;
+    margin-left: -60px;
+    margin-top: 17px;
+}

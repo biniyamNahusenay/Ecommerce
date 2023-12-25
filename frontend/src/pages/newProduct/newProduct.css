@@ -1,0 +1,78 @@
+/* newProduct.css */
+
+.NewProduct {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.formProduct {
+  width: 40%;
+  background-color: rgb(237, 242, 248);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+label {
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+
+select,
+input {
+  margin-bottom: 16px;
+  margin-left: 20px;
+  padding: 8px;
+  width: 80%; /* Make inputs and select take full width */
+}
+textarea{
+  width: 60%;
+  margin-left: 20px;
+}
+
+.upload {
+  width: 350px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  position: absolute;
+  top:160px;
+  left: 40px;
+  cursor: pointer;
+}
+.hidden{
+  display: none;
+}
+.small{
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.price {
+  width: 80%;
+}
+.priceLabel{
+  margin-top: 170px;
+} 
+
+button {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 7px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+}

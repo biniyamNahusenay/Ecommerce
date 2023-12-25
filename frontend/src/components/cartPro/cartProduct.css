@@ -1,0 +1,65 @@
+.cartProd{
+ background-color: rgb(201, 206, 211);
+ padding: 4px;
+ border: 1px solid rgb(182, 175, 175);
+}
+.cartCont{
+    display: flex;
+    background-color: rgb(201, 206, 211);   
+    width: 600px;
+    margin-bottom: 15px;
+}
+.aiDelete{
+    color: red;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.cartImg{
+    width: 130px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.cartImg img{
+    width: 100%;
+}
+.cartDesc {
+    margin-top: -20px;
+    width: 50%;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    padding: 10px; /* Add padding to the menuDesc for better spacing */   
+}
+.cartDesc h3{
+    margin-bottom: -10px;
+}
+.cartDesc p{
+    margin-bottom: -7px;
+}
+.CartBuy{
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+}
+.CartBuy .qty{
+    padding: 4px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.CartBuy .btn{
+    background-color: rgb(165, 165, 10);
+    margin-left: 8px;
+}
+.btnTotal{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    gap: 10px;
+}
+.description p{
+    color: rgb(212, 204, 204);
+    display: inline;
+    margin-right: 6px;
+}

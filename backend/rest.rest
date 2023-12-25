@@ -1,0 +1,10 @@
+POST http://127.0.0.1:5000/signUp   
+Content-Type: application/json
+
+{
+    "firstName":"abebe",
+    "lastName":"kebde",
+    "email":"ab@gmail.com",
+    "password":"123",
+    "confirmPassword":"123"
+}

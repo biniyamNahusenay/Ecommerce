@@ -1,0 +1,44 @@
+.menuCont {
+    background-color: slategrey;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex; /* Use flexbox to make children flex items */
+    margin-bottom: 40px;
+}
+
+.menuImg {
+width: 50%;
+-webkit-box-shadow: -15px 13px 11px -7px rgba(125,114,125,1);
+-moz-box-shadow: -15px 13px 11px -7px rgba(125,114,125,1);
+box-shadow: -15px 13px 11px -7px rgba(125,114,125,1);
+padding: 6px;   
+background-color: white;
+overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: -3px;
+}
+img:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
+}
+
+.menuDesc {
+    width: 50%;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    padding: 10px; /* Add padding to the menuDesc for better spacing */
+}
+.btn{
+    background-color: rgb(165, 165, 10);
+    margin-left: 8px;
+    width: 80px;
+}
+.description p{
+    color: rgb(212, 204, 204);
+    display: inline;
+    margin-right: 6px;
+}

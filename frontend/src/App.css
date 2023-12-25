@@ -1,0 +1,7 @@
+.outlet{
+    background-color: rgb(203, 218, 233);
+    height: calc((100vh-60));
+    overflow-y:hidden;
+    padding-left: 15px;
+    overflow: hidden;
+}   
